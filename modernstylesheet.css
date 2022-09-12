@@ -1,8 +1,7 @@
 /*UNIVERSAL STYLES*/
 
 body {
-    margin: 0%; 
-    background-image: url("Office-Image-Photo-by-Samantha-Gades-on-Unsplash.jpg");
+    margin: 0%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,6 +109,30 @@ li.portfolio-category:hover {
     font-size: larger;
 }
 
+/*RESUME PRESENTATION WINDOW ON RESUME PAGE*/
+
+div.resume-box {
+    overflow: scroll;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    background-color: rgba(247, 244, 234, 0.5);
+    border-right: 5px solid rgb(158, 29, 134);
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.75em;
+}
+
+iframe {
+    display: block;
+    width: 60%;
+    height: 140em;
+    margin-left: 20em;
+    border: 1px solid;
+    border-width: medium;
+    border-color: rgb(0, 0, 0);
+}
+
 /*CONTACT FORM ON CONTACT PAGE*/
 
 form {
@@ -176,28 +199,4 @@ button:hover, button:active {
     border-style: solid;
     border-width: 3px;
     border-color: rgb(158, 29, 134);
-}
-
-/*RESUME PRESENTATION WINDOW ON RESUME PAGE*/
-
-div.resume-box {
-    overflow: scroll;
-    text-align: center;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    padding: 0.5em;
-    background-color: rgba(247, 244, 234, 0.5);
-    border-right: 5px solid rgb(158, 29, 134);
-    font-family: 'Red Hat Display', sans-serif;
-    line-height: 1.75em;
-}
-
-iframe {
-    display: block;
-    width: 60%;
-    height: 140em;
-    margin-left: 20em;
-    border: 1px solid;
-    border-width: medium;
-    border-color: rgb(0, 0, 0);
 }
