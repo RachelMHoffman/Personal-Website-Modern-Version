@@ -38,6 +38,11 @@ li.nav-bar-button a:link, li.nav-bar-button a:visited {
     text-decoration: none;
 }
 
+li.nav-bar-button span.material-symbols-outlined {
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+}
+
 div.text-boxes {
     overflow: scroll;
     text-align: center;
@@ -87,7 +92,7 @@ li.portfolio-category {
     padding-bottom: 0.5em;
 }
 
-span.material-symbols-outlined {
+li.portfolio-category span.material-symbols-outlined {
     vertical-align: middle;
     margin-right: 0.5em;
     color: rgb(158, 29, 134);
