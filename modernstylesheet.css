@@ -2,7 +2,7 @@ body {
     margin: 0%;
 }
 
-/*Overall Icon Settings -- START*/
+/*Overall Icon Settings - Start*/
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -17,9 +17,9 @@ body {
     padding-right: 0.25em;
 }
 
-/*Overall Icon Settings -- END*/
+/*End*/
 
-/*Start of Left Nav Bar Styling*/
+/*Left Nav Bar - Start*/
 
 ul.left-nav-bar {
     position: fixed;
@@ -63,9 +63,9 @@ li.nav-bar-button a:link, li.nav-bar-button a:visited {
     text-decoration: none;
 }
 
-/*End of Left Nav Bar Styling*/
+/*End*/
 
-/*Main Text Boxes*/
+/*Main Text Boxes - Start*/
 
 div.text-boxes {
     overflow: scroll;
@@ -94,7 +94,9 @@ div.contact-form, footer {
     line-height: 1.75em;
 }
 
-/*PORTFOLIO SECTION LIST ON LANDING PAGE*/
+/*End*/
+
+/*PORTFOLIO SECTION LIST ON LANDING PAGE - Start*/
 
 ul.portfolio-category-list {
     display: inline-block;
@@ -116,7 +118,9 @@ li.portfolio-category span.material-symbols-outlined {
     color: rgb(158, 29, 134);
 }
 
-/*RESUME PRESENTATION WINDOW ON RESUME PAGE*/
+/*End*/
+
+/*RESUME PRESENTATION WINDOW ON RESUME PAGE - Start*/
 
 div.resume-box {
     overflow: scroll;
@@ -140,7 +144,9 @@ iframe {
     border-color: rgb(0, 0, 0);
 }
 
-/*CONTACT FORM ON CONTACT PAGE*/
+/*End*/
+
+/*CONTACT FORM ON CONTACT PAGE - Start*/
 
 form {
     text-align: center;
@@ -207,3 +213,5 @@ button:hover, button:active {
     border-width: 3px;
     border-color: rgb(158, 29, 134);
 }
+
+/*End*/
