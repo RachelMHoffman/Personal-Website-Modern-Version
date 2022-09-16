@@ -1,14 +1,29 @@
-/*UNIVERSAL STYLES*/
-
 body {
     margin: 0%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
+
+/*Overall Icon Settings -- START*/
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 1000,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    padding-right: 0.25em;
+}
+
+/*Overall Icon Settings -- END*/
+
+/*Start of Left Nav Bar Styling*/
 
 ul.left-nav-bar {
     position: fixed;
+    display: block;
     overflow: scroll;
     float: left;
     text-align: center;
@@ -22,25 +37,35 @@ ul.left-nav-bar {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-li.nav-bar-button {
-    padding-top: 2em;
-    padding-bottom: 2em;
+.nav-bar-button-label {
+    vertical-align: middle;
+}
+
+li.nav-bar-button, li.active-nav-bar-button {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+li.nav-bar-button span.material-symbols-outlined, li.nav-bar-button {
+    color: rgb(255, 255, 255);
+}
+
+li.active-nav-bar-button span.material-symbols-outlined, li.active-nav-bar-button {
     color: rgb(128, 128, 128);
 }
 
-li.nav-bar-button:hover {
+li.nav-bar-button span.material-symbols-outlined:hover, li.nav-bar-button:hover {
     background-color: rgb(158, 29, 134);
 }
-  
+
 li.nav-bar-button a:link, li.nav-bar-button a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-li.nav-bar-button span.material-symbols-outlined {
-    vertical-align: middle;
-    color: rgb(255, 255, 255);
-}
+/*End of Left Nav Bar Styling*/
+
+/*Main Text Boxes*/
 
 div.text-boxes {
     overflow: scroll;
@@ -54,16 +79,8 @@ div.text-boxes {
     color: rgb(0, 0, 0);
 }
 
-footer {
-    text-align: center;
-    width: cover;
-    color: rgb(0, 0, 0);
-}
-
-/*TEXT BOXES CONTENT*/
-
 div.welcome-header, div.portfolio-paragraph, div.about-me-paragraph, div.contact-page-header, div.resume-page-header,
-div.contact-form {
+div.contact-form, footer {
     overflow: scroll;
     text-align: center;
     margin-top: 1.5em;
@@ -91,22 +108,12 @@ li.portfolio-category {
     padding-bottom: 0.5em;
 }
 
-li.portfolio-category span.material-symbols-outlined {
-    vertical-align: middle;
-    margin-right: 0.5em;
-    color: rgb(158, 29, 134);
-}
-
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 1000,
-    'GRAD' 0,
-    'opsz' 48
-}
-
 li.portfolio-category:hover {
     font-size: larger;
+}
+
+li.portfolio-category span.material-symbols-outlined {
+    color: rgb(158, 29, 134);
 }
 
 /*RESUME PRESENTATION WINDOW ON RESUME PAGE*/
