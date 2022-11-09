@@ -1,193 +1,248 @@
+/*Color Library, source: https://www.schemecolor.com/black-gray-and-purple.php */
+
+#ChineseBlack {color: rgb(20, 20, 20)}
+#GraniteGray {color: rgb(102, 102, 102)}
+#Gray {color: rgb(129, 129, 129)}
+#Argent {color: rgb(191, 191, 191)}
+#KSUPurple {color: rgb(80, 39, 133)}
+#PlumpPurple {color: rgb(94, 76, 178)}
+
+/*UNIVERSAL STYLES - Start*/
+
 body {
     margin: 0%;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
-/*Overall Icon Settings - Start*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*End*/
+
+/*HEROBOX SECTION - Start*/
+
+ul.top-nav-bar {
+    overflow: scroll;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: -3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    list-style-type: none;
+}
+
+li.nav-bar-button {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+i {
+    color: rgb(20, 20, 20);
+    opacity: 0.75;
+}
+
+i:hover {
+    opacity: 1;
+}
+
+div.herobox {
+    overflow: scroll;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 50em;
+    background-image: url(Office-Image-Photo-by-Gabriel-Beaudry-on-Unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+p.herobox-paragraph {
+    margin-top: 3em;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.75);
+    color: rgb(94, 76, 178);
+    font-size: 5em;
+}
+
+/*End*/
+
+/*ABOUT SECTION - Start*/
+
+div.about-box {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    border-bottom-color: rgb(80, 39, 133);
+    border-bottom-width: 1em;
+    border-bottom-style: solid;
+}
+
+p.about-box-title {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: rgb(94, 76, 178);
+    font-size: 2em;
+    text-decoration-line: underline;
+}
+
+p.about-box-paragraph {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    text-indent: 1em;
+    color: rgb(191, 191, 191);
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+/*End*/
+
+/*PORTFOLIO TABLE - Start*/
+
+div.main-body-box {
+    overflow: scroll;
+}
+
+table.portfolio {
+    width: 90em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1em 3em;
+}
+
+img.portfolio-image {
+    width: 60em;
+    height: 20em;
+    display: block;
+}
+
+td.table-button {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(191, 191, 191);
+    border-color: rgb(191, 191, 191);
+    border-width: 10px;
+    border-style: solid;
+}
+
+td.table-button:hover {
+    border-color: rgb(80, 39, 133);
+    border-width: 1em;
+    border-style: solid;
+}
 
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
     'wght' 1000,
     'GRAD' 0,
-    'opsz' 48
+    'opsz' 48;
+    padding-top: 1em;
+    vertical-align: bottom;
 }
 
-.material-symbols-outlined {
-    vertical-align: middle;
-    padding-right: 0.25em;
+.button-name {
+    vertical-align: bottom;
+    font-size: 1.25em;
+}
+
+div.button-description {
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+td.table-button a:link {
+    padding-top: 8em;
+    padding-bottom: 10em;
+    color: rgb(20, 20, 20);
+}
+
+td.table-button a:visited {
+    color: rgb(20, 20, 20);
+}
+
+td.table-button a:hover {
+    color: rgb(20, 20, 20);
+}
+
+td.table-button a:active {
+    color: rgb(20, 20, 20);
 }
 
 /*End*/
 
-/*Left Nav Bar - Start*/
+/*FOOTER SECTION -- Start*/
 
-ul.left-nav-bar {
-    position: fixed;
-    display: block;
+div.footer {
+    width: 100%;
     overflow: scroll;
-    float: left;
     text-align: center;
-    width: 8em;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    background-color: rgb(0, 0, 0);
-    border-right: 5px solid rgb(158, 29, 134);
-    font-family: 'Red Hat Display', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(20, 20, 20);
+    border-top-color: rgb(80, 39, 133);
+    border-top-width: 1em;
+    border-top-style: solid;
 }
 
-.nav-bar-button-label {
-    vertical-align: middle;
-}
-
-li.nav-bar-button, li.active-nav-bar-button {
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
-}
-
-li.nav-bar-button span.material-symbols-outlined, li.nav-bar-button {
-    color: rgb(255, 255, 255);
-}
-
-li.active-nav-bar-button span.material-symbols-outlined, li.active-nav-bar-button {
-    color: rgb(128, 128, 128);
-}
-
-li.nav-bar-button span.material-symbols-outlined:hover, li.nav-bar-button:hover {
-    background-color: rgb(158, 29, 134);
-}
-
-li.nav-bar-button a:link, li.nav-bar-button a:visited {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-/*End*/
-
-/*Main Text Boxes - Start*/
-
-div.welcome-header, div.portfolio-paragraph, div.about-me-paragraph, div.contact-page-header, div.resume-page-header,
-div.contact-form, footer {
-    overflow: auto;
-    display: block;
-    margin-left: 27.5em;
+p.end-paragraph {
+    width: 50%;
     margin-top: 2em;
-    margin-right: 19.5em;
-    width: 40em;
-    height: 100%;
-    text-align: center;
-    background-color: rgba(247, 244, 234, 0.5);
-    border-right: 5px solid rgb(158, 29, 134);
-    font-family: 'Red Hat Display', sans-serif;
-    line-height: 1.75em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(191, 191, 191);
+    font-size: 1.25em;
+    line-height: 2em;
 }
 
-div.text-boxes {
-    float: left;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: rgb(0, 0, 0);
+p.end-paragraph a:link {
+    color: rgb(191, 191, 191);
 }
 
-/*End*/
-
-/*PORTFOLIO SECTION LIST ON LANDING PAGE - Start*/
-
-ul.portfolio-category-list {
-    display: inline-block;
-    margin: 0%;
-	text-align: left; 
-    list-style-type: none;
+p.end-paragraph a:visited {
+    color: rgb(191, 191, 191);
 }
 
-li.portfolio-category {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+p.end-paragraph a:hover {
+    color: rgb(191, 191, 191);
+    text-decoration-line: underline;
 }
 
-li.portfolio-category:hover {
-    font-size: larger;
+p.end-paragraph a:active {
+    color: rgb(191, 191, 191);
+    text-decoration-line: underline;
 }
 
-li.portfolio-category span.material-symbols-outlined {
-    margin-left: -1.75em;
-    color: rgb(158, 29, 134);
-}
-
-/*End*/
-
-/*RESUME PRESENTATION WINDOW ON RESUME PAGE - Start*/
-
-iframe {
-    display: block;
-    width: 60em;
-    height: 140em;
-    overflow: scroll;
-    margin-left: 17em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    margin-right: 9em;
-    border-right: 5px solid rgb(158, 29, 134);
-}
-
-/*End*/
-
-/*CONTACT FORM ON CONTACT PAGE - Start*/
-
-form {
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
-
-label {
-    width: 10em;
-    display: inline-block;
-    text-align: right;
-    color: rgb(0, 0, 0);
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 1.15em;
-    font-weight: bold;
-}
-
-textarea {
-    resize: none;
-}
-
-input[type=text], input[type=email], textarea {
-    width: 15.25em;
-    margin-left: 1em;
-    vertical-align: top;
-    margin-bottom: 0.5em;
-    border: 2px solid rgb(54, 69, 79);
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 1.15em;
-}
-
-input[type=text]:focus, input[type=email]:focus, textarea:focus {
-    outline: none;
-    border: 2px solid rgb(158, 29, 134);
-}
-
-button {
-    padding-top: 1em; 
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-bottom: 1em;
-    border-style: hidden;
-    border-radius: 4px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-  
-button:hover, button:active {
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(158, 29, 134);
+p.copyright {
+    color: rgb(191, 191, 191);
+    font-size: 1em;
 }
 
 /*End*/

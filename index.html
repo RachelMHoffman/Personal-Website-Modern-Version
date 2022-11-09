@@ -7,85 +7,95 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="modernstylesheet.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <!--
-  <script src="JS LINK HERE"></script>
-  -->
-  <style>
-    body {
-      background: url("Office-Image-Photo-by-Samantha-Gades-on-Unsplash.jpg") no-repeat center fixed;
-      background-size: cover;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+  <script src="https://kit.fontawesome.com/1471871b71.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<ul class="left-nav-bar">
-  <li class="active-nav-bar-button">
-    <span class="material-symbols-outlined">home</span>
-    <span class="nav-bar-button-label">Home</span>
-  </li>
-  <li class="nav-bar-button">
-    <a href="resume.html">
-      <span class="material-symbols-outlined">list_alt</span>
-      <span class="nav-bar-button-label">Resume</span>
-    </a>
-  </li>
-  <li class="nav-bar-button">
-    <a href="contact.html">
-      <span class="material-symbols-outlined">mail</span>
-      <span class="nav-bar-button-label">Contact</span>
-    </a>
-  </li>
-  <li class="nav-bar-button">
-    <a href="https://rmhoffman.myportfolio.com/">
-      <span class="material-symbols-outlined">arrow_outward</span>
-      <span class="nav-bar-button-label">Portfolio</span>
-    </a>
-  </li>
-  <li class="nav-bar-button">
-    <a href="https://www.linkedin.com/in/rachelhoffmanmba/">
-      <span class="material-symbols-outlined">arrow_outward</span>
-      <span class="nav-bar-button-label">LinkedIn</span>
-    </a>
-  </li>
-</ul>
-
-<div class="text-boxes">
-  <div class="welcome-header">
-    <h1>Welcome.
-    </h1>
-    <h2>This is my personal website made to demonstrate my proficiency in HTML/CSS.
-    Please take a look around for my current resume, up-to-date portfolio, and my LinkedIn profile.
-    </h2>
-  </div>
-  <div class="portfolio-paragraph">
-    <h3>My Portfolio Categories</h3>
-    <ul class="portfolio-category-list">
-      <li class="portfolio-category"><span class="material-symbols-outlined">computer</span>UX/UI Design</li>
-      <li class="portfolio-category"><span class="material-symbols-outlined">quiz</span>User Testing</li>
-      <li class="portfolio-category"><span class="material-symbols-outlined">category</span>Logo Design</li>
-      <li class="portfolio-category"><span class="material-symbols-outlined">draw</span>Digital Art</li>
+  <div class="herobox">
+    <ul class="top-nav-bar">
+      <li class="nav-bar-button">
+        <a class="icon" href="https://www.linkedin.com/in/rachelhoffmanmba/" target="_blank">
+          <i class="fa-brands fa-linkedin fa-4x"></i>
+        </a>
+      </li>
+      <li class="nav-bar-button">
+        <a class="icon" href="https://github.com/RachelMHoffman" target="_blank">
+          <i class="fa-brands fa-square-github fa-4x"></i> 
+        </a>
+      </li>
+      <li class="nav-bar-button">
+        <a class="icon" href="mailto:rmhoffman17@gmail.com" target="_blank">
+          <i class="fa-solid fa-square-envelope fa-4x"></i>
+        </a>
+      </li>
     </ul>
+    <p class="herobox-paragraph">Welcome.</p>
   </div>
-  <div class="about-me-paragraph">
-    <h3>About Me</h3>
-    <h4>For some quick background information on myself, I earned my B.S. in Business Admin. and MBA while participating in several on-campus organizations and working as a graduate assistant for several professors. 
-    I eventually joined the Anti-Money Laundering (AML) Analysis team at U.S. Bank, where I worked for several years. 
-    I've now changed focus and am making a career pivot towards user experience research & user interface design, with a specialty in logo design.
-    </h4>
-    <h4>I am interested in entry-level, remote or hybrid design roles within teams open to welcoming first-time designers. 
-    In my spare time, I love working out, volunteering, traveling, video games, and watching movies and TV.
-    </h4>
+
+  <div class="about-box">
+    <p class="about-box-title">ABOUT ME</p>
+    <p class="about-box-paragraph">For some quick background information on myself, I earned my B.S. in Business Admin. and MBA while participating in several on-campus organizations and working as a graduate assistant for several professors. 
+    I eventually joined the Anti-Money Laundering (AML) Analysis team at U.S. Bank, where I worked for several years.</p>
+    <p class="about-box-paragraph">I've now changed focus and am making a career pivot towards user experience research & user interface design, with a specialty in logo design.
+    I am interested in entry-level, remote or hybrid design roles within teams open to welcoming first-time designers. 
+    In my spare time, I love working out, volunteering, traveling, video games, and watching movies and TV.</p>
   </div>
-</div>
 
-<footer>
-  (c) Rachel Hoffman 2022
-</footer>
+  <div class="main-body-box">
+    <table class="portfolio">
+      <tr class="portfolio-row">
+        <td class="portfolio-image">
+          <img class="portfolio-image" src="Mobiles-and-Desktops-Mockup.png" alt="Set of Photo Mockups of My Work">
+        </td>
+        <td class="table-button">
+          <a href="https://rmhoffman.myportfolio.com/ux-ui-design" target="_blank">
+            <span class="material-symbols-outlined">computer</span>
+            <span class="button-name">UX/UI Research + Design Samples</span>
+            <span class="material-symbols-outlined">computer</span>
+            <div class="button-description">Case studies detailng the start to finish process of building both web and mobile prototypes for several design brief challenges</div>
+          </a>
+        </td>
+      </tr>
+      <tr class="portfolio-row">
+        <td class="portfolio-image">
+          <img class="portfolio-image" src="Tablets-Mockup.png" alt="Set of Photo Mockups of My Work">
+        </td>
+        <td class="table-button">
+          <a href="https://rmhoffman.myportfolio.com/logo-design" target="_blank">
+            <span class="material-symbols-outlined">category</span>
+            <span class="button-name">Logo Design Samples</span>
+            <span class="material-symbols-outlined">category</span>
+            <div class="button-description">Projects detailing the start to finish process of designing logos for several design brief challenges</div>
+          </a>
+        </td>
+      </tr>
+      <tr class="portfolio-row">
+        <td class="portfolio-image">
+          <img class="portfolio-image" src="Frames-Mockup.png" alt="Set of Photo Mockups of My Work">
+        </td>
+        <td class="table-button">
+          <a href="https://rmhoffman.myportfolio.com/digital-art" target="_blank">
+            <span class="material-symbols-outlined">draw</span>
+            <span class="button-name">Digital Art Gallery</span>
+            <span class="material-symbols-outlined">draw</span>
+            <div class="button-description">Display of personal digital illustrations created in my free time</div>
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
 
-<br>
+  <div class="footer">
+    <p class="end-paragraph">
+      For asset credits and a summary on my experience constructing this website's HTML + CSS, 
+      please visit the README document included in the Project Files on my GitHub, 
+      <a href="https://github.com/RachelMHoffman/Personal-Website-Modern-Version/blob/main/README.md" target="_blank">linked here.</a>
+    </p>
+    <p class="copyright">(c) Rachel Hoffman, 2022</p>
+  </div>
 
 </body>
 
