@@ -1,4 +1,4 @@
-/*Color Library, source: https://www.schemecolor.com/black-gray-and-purple.php */
+/*Color Library*/
 
 #ChineseBlack {color: rgb(20, 20, 20)}
 #GraniteGray {color: rgb(102, 102, 102)}
@@ -66,7 +66,7 @@ div.herobox {
     margin-bottom: 0%;
     width: 100%;
     height: 50em;
-    background-image: url(Office-Image-Photo-by-Gabriel-Beaudry-on-Unsplash.png);
+    background-image: url(Herobox-Office-Photo.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
