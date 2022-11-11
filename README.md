@@ -16,4 +16,4 @@ Herobox office photo by Gabriel Beaudry on Unsplash - https://unsplash.com/@gbea
 Body font "Red Hat Display" and Heading font "Oswald" were sourced from Google Fonts.<br>
 Link icon SVGs (LinkedIn, GitHub, & Email) were sourced from Font Awesome.<br>
 Table icon SVGs (computer, shapes, & paper & pencil) were sourced from Google Fonts.<br>
-Table mockup photos involving my portfolio work were made by myself using the mockup generation tool PlaceIt, by Envato Elenents.
+Table mockup photos involving my portfolio work were made by myself using the mockup generation tool PlaceIt, by Envato Elements.
