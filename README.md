@@ -1,6 +1,8 @@
-# Personal-Website-Modern-Version
+# Project Objective
 
-This is a personally coded website I made in 2022 to demonstrate my proficiency in HTML/CSS.
+This is a personally coded website I made in 2022 to demonstrate my proficiency in HTML/CSS for prospective employers/recruiters.
+
+# Project Screenshots and Design Explanations
 
 # Asset Credits
 
