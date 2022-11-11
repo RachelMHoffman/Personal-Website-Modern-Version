@@ -4,6 +4,11 @@ This is a personally coded website I made in 2022 to demonstrate my proficiency 
 
 # Project Screenshots and Design Explanations
 
+<img src="Herobox-Screenshot.png" alt="project screenshot">
+<img src="About-Box-Screenshot.png" alt="project screenshot">
+<img src="Portfolio-Box-Screenshot.png" alt="project screenshot">
+<img src="Portfolio-Box-Screenshot-2.png" alt="project screenshot">
+
 # Asset Credits
 
 The color palette inspiration was sourced from https://www.schemecolor.com/black-gray-and-purple.php.<br>
