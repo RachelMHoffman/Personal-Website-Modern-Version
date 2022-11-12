@@ -6,7 +6,7 @@ This is a personally coded website I made in 2022 using Visual Studio Code. My g
 
 <img src="Herobox-Screenshot.png" alt="project screenshot">
 
-I searched for and abided by a color palette involing the theme of "Modern" or "Contemporary", with a two-color focus in mind of black and purple, to aid me in element color decision-making. I offer the reader icon links for the different ways to contact me. Each icon has a hover effect implemented which brings the icons' color opacities up, to establish visual interest. I selected two clean, simple Sans-serif-style fonts to use - one for body text and one for heading text.
+I searched for and abided by a color palette involving the theme of "Modern" or "Contemporary", with a two-color focus in mind of black and purple, to aid me in element color decision-making. I offer the reader icon links for the different ways to contact me. Each icon has a hover effect implemented which brings the icons' color opacities up, to establish visual interest. I selected two clean, simple Sans-serif-style fonts to use - one for body text and one for heading text.
 
 <img src="About-Box-Screenshot.png" alt="project screenshot">
 
@@ -31,4 +31,4 @@ Table mockup photos involving my portfolio work were made by myself using the mo
 
 # Terms of Use
 
-As this code was written from scratch with no bootstrapped aspects, and was written for the purpose of delivering proof of concept to potential employers - I would appreciate this code not be copied and re-used, as it could give the idea to professionals visiting this project that this project is unoriginal and could suggest possible plagarism on my part. As for the assets not created by myself, I obviously don't discourage utilizing these; please see the Asset Credits section above for sourcing information.
+As this code was written from scratch with no bootstrapped aspects, and was written for the purpose of delivering proof of concept to potential employers - I would appreciate this code not be copied and re-used, as it could give the idea to professionals visiting this project that this project is unoriginal and could suggest possible plagiarism on my part. As for the assets not created by myself, I obviously don't discourage utilizing these; please see the Asset Credits section above for sourcing information.
