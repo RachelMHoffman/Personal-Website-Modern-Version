@@ -1,6 +1,6 @@
 # Project Objective
 
-This is a personally coded website I made in 2022 using Visual Studio Code. My goal was to create a simple one-page website about myself, not focusing on communicating any weighty or intensive content, but to demonstrate my HTML/CSS proficiency for prospective employers/recruiters and let this project serve as an opportunity to grow and solidify my web design/development skillset. I have created two versions (retro and modern) of a personal website with slight differences in HTML code and more significant differences in CSS code, to showcase more than one design example.
+This is a personally coded website I made in 2022 using Visual Studio Code. My goal was to create a simple one-page website about myself, not focusing on communicating any weighty or intensive content, but to demonstrate my HTML/CSS proficiency for prospective employers/recruiters and let this project serve as an opportunity to grow and solidify my web design/development skillset. I have created two versions ("Retro" first, and then "Modern") of a personal website with slight differences in HTML code and more significant differences in CSS code, to showcase more than one design example. Self-education websites such as W3Schools and Skillshare served as helpful guides throughout the experience for double-checking, correcting, and learning new syntax.
 
 # Project Screenshots and Design Explanations
 
